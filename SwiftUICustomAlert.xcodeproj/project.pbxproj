@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		A945DA162D5736500058BBF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A945D9FD2D57364F0058BBF7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A945DA042D57364F0058BBF7;
-			remoteInfo = SwiftUICustomAlert;
-		};
-		A945DA202D5736500058BBF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A945D9FD2D57364F0058BBF7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A945DA042D57364F0058BBF7;
-			remoteInfo = SwiftUICustomAlert;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		A945DA052D57364F0058BBF7 /* SwiftUICustomAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICustomAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A945DA152D5736500058BBF7 /* SwiftUICustomAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICustomAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A945DA1F2D5736500058BBF7 /* SwiftUICustomAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICustomAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,34 +16,10 @@
 			path = SwiftUICustomAlert;
 			sourceTree = "<group>";
 		};
-		A945DA182D5736500058BBF7 /* SwiftUICustomAlertTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUICustomAlertTests;
-			sourceTree = "<group>";
-		};
-		A945DA222D5736500058BBF7 /* SwiftUICustomAlertUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUICustomAlertUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A945DA022D57364F0058BBF7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A945DA122D5736500058BBF7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A945DA1C2D5736500058BBF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				A945DA072D57364F0058BBF7 /* SwiftUICustomAlert */,
-				A945DA182D5736500058BBF7 /* SwiftUICustomAlertTests */,
-				A945DA222D5736500058BBF7 /* SwiftUICustomAlertUITests */,
 				A945DA062D57364F0058BBF7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				A945DA052D57364F0058BBF7 /* SwiftUICustomAlert.app */,
-				A945DA152D5736500058BBF7 /* SwiftUICustomAlertTests.xctest */,
-				A945DA1F2D5736500058BBF7 /* SwiftUICustomAlertUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,52 +70,6 @@
 			productReference = A945DA052D57364F0058BBF7 /* SwiftUICustomAlert.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A945DA142D5736500058BBF7 /* SwiftUICustomAlertTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A945DA2C2D5736500058BBF7 /* Build configuration list for PBXNativeTarget "SwiftUICustomAlertTests" */;
-			buildPhases = (
-				A945DA112D5736500058BBF7 /* Sources */,
-				A945DA122D5736500058BBF7 /* Frameworks */,
-				A945DA132D5736500058BBF7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A945DA172D5736500058BBF7 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				A945DA182D5736500058BBF7 /* SwiftUICustomAlertTests */,
-			);
-			name = SwiftUICustomAlertTests;
-			packageProductDependencies = (
-			);
-			productName = SwiftUICustomAlertTests;
-			productReference = A945DA152D5736500058BBF7 /* SwiftUICustomAlertTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A945DA1E2D5736500058BBF7 /* SwiftUICustomAlertUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A945DA2F2D5736500058BBF7 /* Build configuration list for PBXNativeTarget "SwiftUICustomAlertUITests" */;
-			buildPhases = (
-				A945DA1B2D5736500058BBF7 /* Sources */,
-				A945DA1C2D5736500058BBF7 /* Frameworks */,
-				A945DA1D2D5736500058BBF7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A945DA212D5736500058BBF7 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				A945DA222D5736500058BBF7 /* SwiftUICustomAlertUITests */,
-			);
-			name = SwiftUICustomAlertUITests;
-			packageProductDependencies = (
-			);
-			productName = SwiftUICustomAlertUITests;
-			productReference = A945DA1F2D5736500058BBF7 /* SwiftUICustomAlertUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,14 +82,6 @@
 				TargetAttributes = {
 					A945DA042D57364F0058BBF7 = {
 						CreatedOnToolsVersion = 16.1;
-					};
-					A945DA142D5736500058BBF7 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = A945DA042D57364F0058BBF7;
-					};
-					A945DA1E2D5736500058BBF7 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = A945DA042D57364F0058BBF7;
 					};
 				};
 			};
@@ -201,28 +100,12 @@
 			projectRoot = "";
 			targets = (
 				A945DA042D57364F0058BBF7 /* SwiftUICustomAlert */,
-				A945DA142D5736500058BBF7 /* SwiftUICustomAlertTests */,
-				A945DA1E2D5736500058BBF7 /* SwiftUICustomAlertUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A945DA032D57364F0058BBF7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A945DA132D5736500058BBF7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A945DA1D2D5736500058BBF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +122,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A945DA112D5736500058BBF7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A945DA1B2D5736500058BBF7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A945DA172D5736500058BBF7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A945DA042D57364F0058BBF7 /* SwiftUICustomAlert */;
-			targetProxy = A945DA162D5736500058BBF7 /* PBXContainerItemProxy */;
-		};
-		A945DA212D5736500058BBF7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A945DA042D57364F0058BBF7 /* SwiftUICustomAlert */;
-			targetProxy = A945DA202D5736500058BBF7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A945DA272D5736500058BBF7 /* Debug */ = {
@@ -446,74 +302,6 @@
 			};
 			name = Release;
 		};
-		A945DA2D2D5736500058BBF7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jeongminkim.SwiftUICustomAlertTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUICustomAlert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUICustomAlert";
-			};
-			name = Debug;
-		};
-		A945DA2E2D5736500058BBF7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jeongminkim.SwiftUICustomAlertTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUICustomAlert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUICustomAlert";
-			};
-			name = Release;
-		};
-		A945DA302D5736500058BBF7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jeongminkim.SwiftUICustomAlertUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftUICustomAlert;
-			};
-			name = Debug;
-		};
-		A945DA312D5736500058BBF7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jeongminkim.SwiftUICustomAlertUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftUICustomAlert;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -531,24 +319,6 @@
 			buildConfigurations = (
 				A945DA2A2D5736500058BBF7 /* Debug */,
 				A945DA2B2D5736500058BBF7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A945DA2C2D5736500058BBF7 /* Build configuration list for PBXNativeTarget "SwiftUICustomAlertTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A945DA2D2D5736500058BBF7 /* Debug */,
-				A945DA2E2D5736500058BBF7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A945DA2F2D5736500058BBF7 /* Build configuration list for PBXNativeTarget "SwiftUICustomAlertUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A945DA302D5736500058BBF7 /* Debug */,
-				A945DA312D5736500058BBF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
